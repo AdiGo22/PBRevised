@@ -13,7 +13,7 @@
    ![image](https://github.com/user-attachments/assets/ded00f2d-932c-473a-8755-f43f521259ac)
 
 ### **3. Clickable Reviews**
-  - Testimonials can look authentic by linking directly to specific products for better clarity.
+  - Testimonials can look authentic by linking directly the customer's testmonials and to their specific products for better clarity.
 
    ![image](https://github.com/user-attachments/assets/5068264e-5071-4b5f-850f-a128c69fc3eb) 
   ![image](https://github.com/user-attachments/assets/c2df3a02-3110-4fe3-9845-0c707875409d)
