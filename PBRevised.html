@@ -1124,15 +1124,21 @@
         <div class="category-card">
         
           <div class="category-card-left">
-            <a onclick="javascript:GA360EventPage('Product Box', 'View All Products', 'Explore more products');" href="javascript:void(0)"class="view-all view-all-prd">
+           
                 
           
               <h1>Insurance</h1>
-              </a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+             
+              
+              <br/>
+              
+              <p>PolicyBazaar offers diverse insurance products like health, life, car, and travel insurance. Explore customizable options for individuals, families, and assets.</p>
+              <div class="view-all-wrapper" >
+                <a onclick="javascript:GA360EventPage('Product Box', 'View All Products', 'Explore more products');" href="javascript:void(0)"class="view-all view-all-prd" style="background-color: #091a38;">Check Insurance</a>
+                </div>
           </div>
           <div class="category-card-right">
-              <img src="your-insurance-image.jpg" alt="Insurance Image" />
+              <img src="https://static.pbcdn.in/home-cdn/images/marketing/home-marketing-page.svg" alt="Insurance Image" />
           </div>
       </div>
       <!-- change the3 trigger of Plans <a tag and js
@@ -1157,10 +1163,15 @@
         <div class="category-card">
           <div class="category-card-left">
               <h1>Plans</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
-          </div>
+              <br/>
+            
+              <p>PolicyBazaar offers term insurance plans designed to provide life coverage and financial security for families.</p>
+              <div class="view-all-wrapper">
+                <a onclick="javascript:GA360EventPage('Product Box', 'View All Products', 'Explore more products');" href="javascript:void(0)"class="view-all view-all-prd">Check Plans</a>
+                </div>
+            </div>
           <div class="category-card-right">
-              <img src="your-plans-image.jpg" alt="Plans Image" />
+              <img src="https://static.pbcdn.in/cdn/images/home-v1/help.png" height="150px" width="250px" alt="Plans Image" />
           </div>
       </div>
       
@@ -1183,8 +1194,7 @@
       /* Media Query for Smaller Screens */
       @media (max-width: 1920px) {
          .container.featurebanner {
-            flex-direction: column;
-            
+            flex-direction: column;   
          }
       }
 
@@ -1305,24 +1315,27 @@ a{
 .category-card {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:start;
   flex: 1;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
+ 
+  border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 24px;
   min-height: 240px;
+ 
 
  
 }
 
 /* Card with bright background colors */
 .category-card:nth-child(1) {
-  background-color: #776bfd; /* Bright yellow for the Insurance card */
+  background-color: #0065ff; /* Bright yellow for the Insurance card */
+  border: 3px solid #091a38;
 }
 
 .category-card:nth-child(2) {
-  background-color: #ff9b2c; /* Bright turquoise for the Plans card */
+  background-color: #091a38; /* Bright turquoise for the Plans card */
+  border: 3px solid #0065ff;
 }
 
 /* Card content alignment */
@@ -1362,6 +1375,7 @@ a{
 .category-card-left a{
   text-decoration: none;
 }
+
 /*to style for mobile view as well */
 </style>
 
