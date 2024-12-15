@@ -1092,9 +1092,10 @@
     </div> -->
  
      <!--testing-->
-     <div class="blk-prd featurebox">
-      <div class="container featurebanner" style="display: flex; flex-wrap: wrap; gap: 20px;">
-   
+  
+     
+      <div class = "category-container">
+        <!----
          <div style=" min-width: 300px;">
             <article class="home-insurance prd-bg" style="padding: 10px;">
                <div class="block-data">
@@ -1105,7 +1106,7 @@
                      <div>
                         <p class="copy">Insurance</p>
                      </div>
-                     <!--drop down-->
+                    
                      <div class="view-all-products ">
                       <a onclick="javascript:GA360EventPage('Product Box', 'View All Products', 'Explore more products');" href="javascript:void(0)"class="view-all view-all-prd">
                           View all products         
@@ -1119,7 +1120,22 @@
                
             </article>
          </div>
-      <!-- change the3 trigger of Plans <a tag and js-->
+        -->
+        <div class="category-card">
+        
+          <div class="category-card-left">
+            <a onclick="javascript:GA360EventPage('Product Box', 'View All Products', 'Explore more products');" href="javascript:void(0)"class="view-all view-all-prd">
+                
+          
+              <h1>Insurance</h1>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+          </div>
+          <div class="category-card-right">
+              <img src="your-insurance-image.jpg" alt="Insurance Image" />
+          </div>
+      </div>
+      <!-- change the3 trigger of Plans <a tag and js
          <div style=" min-width: 300px;">
             <article class="pbaskci prd-bg onestop" style="padding: 10px;">
                <div class="block-data">
@@ -1137,9 +1153,18 @@
                </div>
             </article>
          </div>
-   
+        -->
+        <div class="category-card">
+          <div class="category-card-left">
+              <h1>Plans</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+          </div>
+          <div class="category-card-right">
+              <img src="your-plans-image.jpg" alt="Plans Image" />
+          </div>
       </div>
-   </div>
+      
+   </div> 
    
    <style>
       /* Media Query for Desktop */
@@ -1273,9 +1298,72 @@
 a{
   text-decoration: none;
 }
+ -->
+<style>
 
+/* Individual card styles */
+.category-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  min-height: 240px;
+
+ 
+}
+
+/* Card with bright background colors */
+.category-card:nth-child(1) {
+  background-color: #776bfd; /* Bright yellow for the Insurance card */
+}
+
+.category-card:nth-child(2) {
+  background-color: #ff9b2c; /* Bright turquoise for the Plans card */
+}
+
+/* Card content alignment */
+.category-card-left {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.category-card-right img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Typography */
+.category-card-left h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #ffffff; /* White text on bright backgrounds */
+  margin-bottom: 12px;
+  margin-top: 1px;
+}
+
+.category-card-left p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #ffffff; /* White text for readability */
+  line-height: 1.6;
+}
+.category-container{
+  display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Space between the cards */
+    padding: 20px;
+    background-color: #ffffff;
+    
+}
+.category-card-left a{
+  text-decoration: none;
+}
 </style>
---->
+
 <div class="container prd-container homeIcons home_version11">    
     <!-- <section class="prd-row">
         <div class="prd-block">
